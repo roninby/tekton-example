@@ -1,4 +1,4 @@
-FROM golang:1.14-alpine
+FROM harbor.gcpslab.xyz/library/golang:1.14-alpine
 
 WORKDIR /go/src/app
 COPY . .
